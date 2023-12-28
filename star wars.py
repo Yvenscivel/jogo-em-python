@@ -66,7 +66,7 @@ for i in range(7):
     estrela.color("white")            # Cor da estrela
     estrela.penup()                   # Não riscar a tela
     estrela.goto(-550, 250)           # Mandei para fora do plano quando fosse executada pela primeira vez
-    estrela.speed = 7                 # Velocidade da estrela
+    estrela.speed = 3                 # Velocidade da estrela
     
 
     estrelas.append(estrela)
@@ -81,7 +81,7 @@ for i in range(4):
     inimigo.color("red")              # Inutil, ja tem skin
     inimigo.penup()                   # Não riscar a tela
     inimigo.goto(-550, 250)           # Para fora do plano para não aparecer na tela pela primeira vez
-    inimigo.speed = 5                 # Velocidade do inimigo
+    inimigo.speed = 1                 # Velocidade do inimigo
     
 
     inimigos.append(inimigo)
@@ -202,7 +202,7 @@ def start():                                                # Função Para inic
                 hud.goto(0,0)               # Placar vai para as coordenadas x:0 e y:0 no Plano carteziano 
                 hud.clear()                     # Apaga o placar que estava no topo 
                 hud.write(f"  Game Over! \nPontuação: {score}", align="center", font=("Impact", 30, "normal")) # Mostra sua pontuação e Game Over
-                time.sleep(60)               # Progama Para                
+                #time.sleep(1)               # Progama Para                
 
                     
 
