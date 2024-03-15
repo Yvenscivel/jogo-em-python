@@ -5,7 +5,7 @@ import winsound
 
 
 '''
-Trabalhado de Fundamentos da Programação do 
+Trabalho de Fundamentos da Programação do 
 curso Ciência da Computação - Universidade Federal do Ceará
 
 Aluno: Yvens Almeida Girão
